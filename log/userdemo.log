@@ -1,0 +1,52 @@
+2016-10-12 11:23:02.110  INFO 9308 --- [main] com.chen.app.Application                 : Starting Application on DESKTOP-583J31M with PID 9308 (C:\code\userdemo\target\classes started by chenchaofeng in C:\code\userdemo)
+2016-10-12 11:23:02.113  INFO 9308 --- [main] com.chen.app.Application                 : No active profile set, falling back to default profiles: default
+2016-10-12 11:23:02.200  INFO 9308 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78e94dcf: startup date [Wed Oct 12 11:23:02 CST 2016]; root of context hierarchy
+2016-10-12 11:23:04.229  INFO 9308 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-10-12 11:23:04.803  INFO 9308 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2aa72f28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-10-12 11:23:05.265  INFO 9308 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2016-10-12 11:23:05.278  INFO 9308 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-10-12 11:23:05.279  INFO 9308 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-10-12 11:23:05.396  INFO 9308 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-10-12 11:23:05.397  INFO 9308 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3215 ms
+2016-10-12 11:23:05.755  INFO 9308 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-10-12 11:23:05.801  INFO 9308 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-10-12 11:23:05.802  INFO 9308 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-10-12 11:23:05.803  INFO 9308 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-10-12 11:23:05.803  INFO 9308 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-10-12 11:23:06.210  INFO 9308 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-10-12 11:23:06.245  INFO 9308 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-10-12 11:23:06.335  INFO 9308 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}
+2016-10-12 11:23:06.336  INFO 9308 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-10-12 11:23:06.338  INFO 9308 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-10-12 11:23:06.511  INFO 9308 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-10-12 11:23:06.829  INFO 9308 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-10-12 11:23:07.012  INFO 9308 --- [main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-10-12 11:23:07.230  INFO 9308 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2016-10-12 11:23:07.230  INFO 9308 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000102: Fetching database metadata
+2016-10-12 11:23:07.231  INFO 9308 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000396: Updating schema
+2016-10-12 11:23:07.251  INFO 9308 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000261: Table found: test.t_usernew
+2016-10-12 11:23:07.251  INFO 9308 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000037: Columns: [birthday, address, sex, id, username]
+2016-10-12 11:23:07.251  INFO 9308 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000108: Foreign keys: []
+2016-10-12 11:23:07.251  INFO 9308 --- [main] o.hibernate.tool.hbm2ddl.TableMetadata   : HHH000126: Indexes: [primary]
+2016-10-12 11:23:07.253  INFO 9308 --- [main] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000232: Schema update complete
+2016-10-12 11:23:07.829  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78e94dcf: startup date [Wed Oct 12 11:23:02 CST 2016]; root of context hierarchy
+2016-10-12 11:23:07.937  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.chen.controller.HelloWorldController.sayHello()
+2016-10-12 11:23:07.939  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/add],methods=[POST]}" onto public void com.chen.controller.UserController.addUser(com.chen.pojo.User)
+2016-10-12 11:23:07.939  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/findUserByName]}" onto public com.chen.pojo.User com.chen.controller.UserController.findUserByName(java.lang.String)
+2016-10-12 11:23:07.939  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/user/getUserById]}" onto public com.chen.pojo.User com.chen.controller.UserController.getUserById(java.lang.Long)
+2016-10-12 11:23:07.941  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/welcome],methods=[GET]}" onto public java.lang.String com.chen.controller.WelcomeController.welcome()
+2016-10-12 11:23:07.942  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-10-12 11:23:07.943  INFO 9308 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-10-12 11:23:07.969  INFO 9308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 11:23:07.973  INFO 9308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 11:23:08.016  INFO 9308 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-10-12 11:23:08.225  INFO 9308 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-10-12 11:23:08.293  INFO 9308 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2016-10-12 11:23:08.297  INFO 9308 --- [main] com.chen.app.Application                 : Started Application in 6.535 seconds (JVM running for 7.02)
+2016-10-12 11:23:25.386  INFO 9308 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-10-12 11:23:25.386  INFO 9308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-10-12 11:23:25.404  INFO 9308 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2016-10-12 13:44:07.132  WARN 9308 --- [http-nio-8080-exec-2] o.s.web.servlet.PageNotFound             : Request method 'GET' not supported
+2016-10-12 13:44:09.314  WARN 9308 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public void com.chen.controller.UserController.addUser(com.chen.pojo.User)
